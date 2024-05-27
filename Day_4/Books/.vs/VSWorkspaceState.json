@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Books",
+    "\\Books\\Books",
+    "\\Books\\DataAccessLayer",
+    "\\Books\\DataAccessLayer\\Services"
+  ],
+  "SelectedNode": "\\Books\\DataAccessLayer\\Services\\BooksService.cs",
+  "PreviewInSolutionExplorer": false
+}
