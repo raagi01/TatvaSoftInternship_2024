@@ -1,0 +1,15 @@
+<h1> Login Form</h1>
+<hr>
+<form>
+  <!-- Login form fields -->
+  <label>Email: </label>
+<input [(ngModel)] = "email">
+<br />
+<label>Password: </label>
+<input [(ngModel)] = "password">
+<br />
+  <button (click) = "onClick()">Login</button>
+</form>
+
+
+<router-outlet></router-outlet>
