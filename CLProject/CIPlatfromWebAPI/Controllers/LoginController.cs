@@ -32,5 +32,23 @@ namespace Web_API.Controllers
             }
             return result;
         }
+
+        [HttpGet]
+        [Route("GetUserById/{id}")]
+        [Authorize]
+        public ResponseResult GetUserById(int id)
+        {
+            try
+            {
+                result.Data = _balLogin.GetUserById(id);
+                result.Result = ResponseStatus.Success;
+            }
+            catch (Exception ex)
+            {
+                result.Result = ResponseStatus.Error;
+                result.Message = ex.Message;
+            }
+            return result;
+        }
     }
 }

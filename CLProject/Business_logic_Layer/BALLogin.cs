@@ -16,6 +16,11 @@ namespace Business_logic_Layer
             _jwtService = jwtService;
         }
 
+        public User GetUserById(int userId)
+        {
+            return _dalLogin.GetUserById(userId);
+        }
+
         public ResponseResult LoginUser(LoginRequest loginRequest)
         {
             try

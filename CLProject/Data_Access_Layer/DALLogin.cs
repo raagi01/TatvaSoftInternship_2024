@@ -11,7 +11,30 @@ namespace Data_Access_Layer
         {
             _cIDbContext = cIDbContext;
         }
-        
+
+        public User GetUserById(int userId)
+        {
+            try
+            {
+                User user = new User();
+                // Retrieve the user by ID
+                user = _cIDbContext.User.FirstOrDefault(u => u.Id == userId && !u.IsDeleted);
+
+                if (user != null)
+                {
+                    return user;
+                }
+                else
+                {
+                    throw new Exception("User not found.");
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
         public User LoginUser(User user)
         {
             User userObj = new User();
