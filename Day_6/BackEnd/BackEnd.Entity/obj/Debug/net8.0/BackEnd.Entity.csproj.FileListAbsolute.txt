@@ -1,0 +1,28 @@
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.csproj.AssemblyReference.cache
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.AssemblyInfoInputs.cache
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.AssemblyInfo.cs
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.csproj.CoreCompileInputs.cache
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.Entity\bin\Debug\net8.0\BackEnd.Entity.deps.json
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.Entity\bin\Debug\net8.0\BackEnd.Entity.runtimeconfig.json
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.Entity\bin\Debug\net8.0\BackEnd.Entity.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.Entity\bin\Debug\net8.0\BackEnd.Entity.pdb
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.Entity\obj\Debug\net8.0\refint\BackEnd.Entity.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.pdb
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.genruntimeconfig.cache
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.Entity\obj\Debug\net8.0\ref\BackEnd.Entity.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.Entity\bin\Debug\net8.0\BackEnd.Entity.deps.json
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.Entity\bin\Debug\net8.0\BackEnd.Entity.runtimeconfig.json
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.Entity\bin\Debug\net8.0\BackEnd.Entity.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.Entity\bin\Debug\net8.0\BackEnd.Entity.pdb
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.csproj.AssemblyReference.cache
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.AssemblyInfoInputs.cache
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.AssemblyInfo.cs
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.csproj.CoreCompileInputs.cache
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.Entity\obj\Debug\net8.0\refint\BackEnd.Entity.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.pdb
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.Entity\obj\Debug\net8.0\BackEnd.Entity.genruntimeconfig.cache
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.Entity\obj\Debug\net8.0\ref\BackEnd.Entity.dll

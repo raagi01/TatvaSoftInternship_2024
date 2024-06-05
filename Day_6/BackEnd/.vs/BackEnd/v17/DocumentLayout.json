@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Raagi\\Internship\\Tasks\\Day_6\\BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8512785C-0A29-42BC-9EE5-29DADF1F634B}|BackEnd\\BackEnd.csproj|d:\\raagi\\internship\\tasks\\day_6\\backend\\backend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8512785C-0A29-42BC-9EE5-29DADF1F634B}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD25C3A-6608-482E-BEDB-9C0DCE1F5201}|BackEnd.BAL\\BackEnd.BAL.csproj|d:\\raagi\\internship\\tasks\\day_6\\backend\\backend.bal\\ballogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD25C3A-6608-482E-BEDB-9C0DCE1F5201}|BackEnd.BAL\\BackEnd.BAL.csproj|solutionrelative:backend.bal\\ballogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9418F6FB-8E6D-4B7B-9DCE-B4AAE473FBC0}|BackEnd.DAL\\BackEnd.DAL.csproj|d:\\raagi\\internship\\tasks\\day_6\\backend\\backend.dal\\dallogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9418F6FB-8E6D-4B7B-9DCE-B4AAE473FBC0}|BackEnd.DAL\\BackEnd.DAL.csproj|solutionrelative:backend.dal\\dallogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8512785C-0A29-42BC-9EE5-29DADF1F634B}|BackEnd\\BackEnd.csproj|d:\\raagi\\internship\\tasks\\day_6\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8512785C-0A29-42BC-9EE5-29DADF1F634B}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8512785C-0A29-42BC-9EE5-29DADF1F634B}|BackEnd\\BackEnd.csproj|d:\\raagi\\internship\\tasks\\day_6\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8512785C-0A29-42BC-9EE5-29DADF1F634B}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 190,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DALLogin.cs",
+              "DocumentMoniker": "D:\\Raagi\\Internship\\Tasks\\Day_6\\BackEnd\\BackEnd.DAL\\DALLogin.cs",
+              "RelativeDocumentMoniker": "BackEnd.DAL\\DALLogin.cs",
+              "ToolTip": "D:\\Raagi\\Internship\\Tasks\\Day_6\\BackEnd\\BackEnd.DAL\\DALLogin.cs",
+              "RelativeToolTip": "BackEnd.DAL\\DALLogin.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T08:59:46.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Raagi\\Internship\\Tasks\\Day_6\\BackEnd\\BackEnd\\appsettings.json",
+              "RelativeDocumentMoniker": "BackEnd\\appsettings.json",
+              "ToolTip": "D:\\Raagi\\Internship\\Tasks\\Day_6\\BackEnd\\BackEnd\\appsettings.json",
+              "RelativeToolTip": "BackEnd\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T13:52:30.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Raagi\\Internship\\Tasks\\Day_6\\BackEnd\\BackEnd\\Program.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Program.cs",
+              "ToolTip": "D:\\Raagi\\Internship\\Tasks\\Day_6\\BackEnd\\BackEnd\\Program.cs",
+              "RelativeToolTip": "BackEnd\\Program.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwCYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:49:54.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BALLogin.cs",
+              "DocumentMoniker": "D:\\Raagi\\Internship\\Tasks\\Day_6\\BackEnd\\BackEnd.BAL\\BALLogin.cs",
+              "RelativeDocumentMoniker": "BackEnd.BAL\\BALLogin.cs",
+              "ToolTip": "D:\\Raagi\\Internship\\Tasks\\Day_6\\BackEnd\\BackEnd.BAL\\BALLogin.cs",
+              "RelativeToolTip": "BackEnd.BAL\\BALLogin.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:38:11.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Raagi\\Internship\\Tasks\\Day_6\\BackEnd\\BackEnd\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Raagi\\Internship\\Tasks\\Day_6\\BackEnd\\BackEnd\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "BackEnd\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAYwCMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:03:43.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.csproj.AssemblyReference.cache
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.AssemblyInfoInputs.cache
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.AssemblyInfo.cs
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.csproj.CoreCompileInputs.cache
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.BAL.deps.json
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.BAL.runtimeconfig.json
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.BAL.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.BAL.pdb
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.DAL.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.Entity.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.DAL.pdb
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.Entity.pdb
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd..308C2BAA.Up2Date
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\obj\Debug\net8.0\refint\BackEnd.BAL.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.pdb
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.genruntimeconfig.cache
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd.BAL\obj\Debug\net8.0\ref\BackEnd.BAL.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.BAL.deps.json
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.BAL.runtimeconfig.json
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.BAL.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.BAL.pdb
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.DAL.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.Entity.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.DAL.pdb
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\bin\Debug\net8.0\BackEnd.Entity.pdb
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.csproj.AssemblyReference.cache
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.AssemblyInfoInputs.cache
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.AssemblyInfo.cs
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.csproj.CoreCompileInputs.cache
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd..308C2BAA.Up2Date
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\obj\Debug\net8.0\refint\BackEnd.BAL.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.pdb
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\obj\Debug\net8.0\BackEnd.BAL.genruntimeconfig.cache
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd.BAL\obj\Debug\net8.0\ref\BackEnd.BAL.dll

@@ -1,0 +1,235 @@
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.csproj.AssemblyReference.cache
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.AssemblyInfoInputs.cache
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.AssemblyInfo.cs
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.csproj.CoreCompileInputs.cache
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\appsettings.Development.json
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\appsettings.json
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.exe
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.deps.json
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.runtimeconfig.json
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.pdb
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Humanizer.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Npgsql.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\System.CodeDom.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.BAL.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.DAL.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.Entity.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.BAL.pdb
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.DAL.pdb
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.Entity.pdb
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\staticwebassets.build.json
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\staticwebassets.development.json
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\staticwebassets\msbuild.BackEnd.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\staticwebassets\msbuild.build.BackEnd.props
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BackEnd.props
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BackEnd.props
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\scopedcss\bundle\BackEnd.styles.css
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.csproj.Up2Date
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\refint\BackEnd.dll
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.pdb
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.genruntimeconfig.cache
+C:\Tatvasoft Internship\New Backend\BackEnd\BackEnd\obj\Debug\net8.0\ref\BackEnd.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\appsettings.Development.json
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\appsettings.json
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.exe
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.deps.json
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.runtimeconfig.json
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.pdb
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Humanizer.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Npgsql.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\System.CodeDom.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.BAL.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.DAL.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.Entity.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.BAL.pdb
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.DAL.pdb
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\bin\Debug\net8.0\BackEnd.Entity.pdb
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.csproj.AssemblyReference.cache
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.AssemblyInfoInputs.cache
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.AssemblyInfo.cs
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.csproj.CoreCompileInputs.cache
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.MvcApplicationPartsAssemblyInfo.cs
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.MvcApplicationPartsAssemblyInfo.cache
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\staticwebassets.build.json
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\staticwebassets.development.json
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\staticwebassets\msbuild.BackEnd.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\staticwebassets\msbuild.build.BackEnd.props
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BackEnd.props
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BackEnd.props
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\scopedcss\bundle\BackEnd.styles.css
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.csproj.Up2Date
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\refint\BackEnd.dll
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.pdb
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\BackEnd.genruntimeconfig.cache
+D:\Raagi\Internship\Tasks\Day_6\BackEnd\BackEnd\obj\Debug\net8.0\ref\BackEnd.dll
