@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|d:\\raagi\\internship\\day_5\\books\\books\\dataaccesslayer\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|d:\\raagi\\internship\\day_5\\books\\books\\dataaccesslayer\\models\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|d:\\raagi\\internship\\day_5\\books\\books\\dataaccesslayer\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|d:\\raagi\\internship\\day_5\\books\\books\\dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|d:\\raagi\\internship\\day_5\\books\\books\\books\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|solutionrelative:books\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|d:\\raagi\\internship\\day_5\\books\\books\\dataaccesslayer\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|d:\\raagi\\internship\\day_5\\books\\books\\dataaccesslayer\\dalstatics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dalstatics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|d:\\raagi\\internship\\day_5\\books\\books\\books\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|solutionrelative:books\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|d:\\raagi\\internship\\day_5\\books\\books\\books\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|solutionrelative:books\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|d:\\raagi\\internship\\day_5\\books\\books\\books\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|solutionrelative:books\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataAccessLayer",
+              "DocumentMoniker": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ToolTip": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeToolTip": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-27T16:14:45.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\Books\\Program.cs",
+              "RelativeDocumentMoniker": "Books\\Program.cs",
+              "ToolTip": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\Books\\Program.cs",
+              "RelativeToolTip": "Books\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:01:32.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DALStatics.cs",
+              "DocumentMoniker": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\DataAccessLayer\\DALStatics.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DALStatics.cs",
+              "ToolTip": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\DataAccessLayer\\DALStatics.cs",
+              "RelativeToolTip": "DataAccessLayer\\DALStatics.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T09:56:11.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserInfo.cs",
+              "DocumentMoniker": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\DataAccessLayer\\Models\\UserInfo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\UserInfo.cs",
+              "ToolTip": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\DataAccessLayer\\Models\\UserInfo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\UserInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T09:20:07.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\DataAccessLayer\\Models\\UserLogin.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\UserLogin.cs",
+              "ToolTip": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\DataAccessLayer\\Models\\UserLogin.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\UserLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T09:20:07.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Books.cs",
+              "DocumentMoniker": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\DataAccessLayer\\Models\\Books.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\Books.cs",
+              "ToolTip": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\DataAccessLayer\\Models\\Books.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\Books.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T09:20:07.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BooksService.cs",
+              "DocumentMoniker": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\DataAccessLayer\\Services\\BooksService.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Services\\BooksService.cs",
+              "ToolTip": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\DataAccessLayer\\Services\\BooksService.cs",
+              "RelativeToolTip": "DataAccessLayer\\Services\\BooksService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T09:20:07.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\Books\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Books\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\Books\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Books\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAswBQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T09:20:07.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\Books\\appsettings.json",
+              "RelativeDocumentMoniker": "Books\\appsettings.json",
+              "ToolTip": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\Books\\appsettings.json",
+              "RelativeToolTip": "Books\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T09:20:07.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\Books\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Books\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Raagi\\Internship\\Day_5\\Books\\Books\\Books\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Books\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAcwB4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T09:20:07.563Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
