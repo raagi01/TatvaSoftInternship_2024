@@ -19,7 +19,7 @@ namespace Data_Access_Layer.Repository.Entities
         public int CountryId { get; set; }       
         public int CityId { get; set; }
 
-        // Change StartDate and EndDate datatypes
+        // Change StartDate and EndDate data types
         [Column(TypeName = "date")]
         public DateTime StartDate { get; set; }
 

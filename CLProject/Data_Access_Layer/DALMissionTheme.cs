@@ -22,9 +22,9 @@ namespace Data_Access_Layer
 
         public async Task<MissionTheme> GetMissionThemeByIdAsync(int id)
         {
-             return await _cIDbContext.MissionTheme
-                    .Where(mt => mt.Id == id && !mt.IsDeleted)
-                    .FirstOrDefaultAsync();
+            return await _cIDbContext.MissionTheme
+                                     .Where(mt => mt.Id == id && !mt.IsDeleted)
+                                     .FirstOrDefaultAsync();
         }
 
         public async Task<string> AddMissionThemeAsync(MissionTheme missionTheme)

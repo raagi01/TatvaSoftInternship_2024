@@ -12,10 +12,8 @@ namespace Web_API.Controllers
     public class CommonController : ControllerBase
     {
         private readonly BALCommon _balCommon;
-        private readonly Microsoft.AspNetCore.Hosting.IHostingEnvironment _hostingEnvironment; 
-        //wwwRoot is needed for css, javascript files, or uploaded images
+        private readonly Microsoft.AspNetCore.Hosting.IHostingEnvironment _hostingEnvironment;
 
-        //Passing the business access layer
         public CommonController(BALCommon balCommon, Microsoft.AspNetCore.Hosting.IHostingEnvironment hostingEnvironment)
         {
             _balCommon = balCommon;
