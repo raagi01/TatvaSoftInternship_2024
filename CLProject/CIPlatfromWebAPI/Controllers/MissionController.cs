@@ -182,7 +182,7 @@ namespace Web_API.Controllers
 
         #endregion
 
-      /*  #region MissionApplication
+        #region MissionApplication
 
         [HttpGet]
         [Route("MissionApplicationList")]
@@ -237,6 +237,6 @@ namespace Web_API.Controllers
             return result;
         }
 
-        #endregion*/
+        #endregion
     }
 }
