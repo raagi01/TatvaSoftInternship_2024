@@ -1,4 +1,5 @@
-﻿using Data_Access_Layer.Repository;
+﻿using Data_Access_Layer.Migrations;
+using Data_Access_Layer.Repository;
 using Data_Access_Layer.Repository.Entities;
 using System.Data;
 
@@ -216,6 +217,189 @@ namespace Data_Access_Layer
                 throw ex;
             }
             return userObj;
+        }
+
+        public User LoginUserDetailById(int userId)
+        {
+            try
+            {
+                User user = new User();
+                // Retrieve the user by ID
+                user = _cIDbContext.User.FirstOrDefault(u => u.Id == userId && !u.IsDeleted);
+
+                if (user != null)
+                {
+                    return user;
+                }
+                else
+                {
+                    throw new Exception("User not found.");
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public UserDetail GetUserProfileDetailById(int userId)
+        {
+            try
+            {
+                var userDetails = (from u in _cIDbContext.User
+                                   join ud in _cIDbContext.UserDetail on u.Id equals ud.UserId into UserDetailGroup
+                                   from userdetail in UserDetailGroup.DefaultIfEmpty()
+                                   where !u.IsDeleted && !userdetail.IsDeleted && u.UserType == "user" && userdetail.UserId == userId
+                                   select new UserDetail
+                                   {
+                                       Id = u.Id,
+                                       FirstName = u.FirstName,
+                                       LastName = u.LastName,
+                                       PhoneNumber = u.PhoneNumber,
+                                       EmailAddress = u.EmailAddress,
+                                       UserType = u.UserType,
+                                       UserId = userdetail.Id,
+                                       Name = userdetail.Name,
+                                       Surname = userdetail.Surname,
+                                       EmployeeId = userdetail.EmployeeId,
+                                       Department = userdetail.Department,
+                                       Title = userdetail.Title,
+                                       Manager = userdetail.Manager,
+                                       WhyIVolunteer = userdetail.WhyIVolunteer,
+                                       CountryId = userdetail.CountryId,
+                                       CityId = userdetail.CityId,
+                                       Avilability = userdetail.Avilability,
+                                       LinkdInUrl = userdetail.LinkdInUrl,
+                                       MySkills = userdetail.MySkills,
+                                       UserImage = userdetail.UserImage,
+                                       Status = userdetail.Status,
+                                   }).ToList().FirstOrDefault();
+
+                return userDetails;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public string LoginUserProfileUpdate(UserDetail userDetail)
+        {
+            string result = "";
+            try
+            {
+                // Begin transaction
+                using (var transaction = _cIDbContext.Database.BeginTransaction())
+                {
+                    try
+                    {
+                        // Get the userdetails
+                        var existingUserDetail = _cIDbContext.UserDetail
+                            .FirstOrDefault(u => u.UserId == userDetail.UserId && u.IsDeleted == false);
+
+                        if (existingUserDetail != null)
+                        {
+                            // Update user detail
+                            
+                            existingUserDetail.FirstName = userDetail.FirstName;
+                            existingUserDetail.LastName = userDetail.LastName;
+                            existingUserDetail.PhoneNumber =userDetail.PhoneNumber;
+                            existingUserDetail.EmailAddress = userDetail.EmailAddress;
+                            existingUserDetail.UserType = userDetail.UserType;
+                            existingUserDetail.Name = userDetail.FirstName;
+                            existingUserDetail.Surname = userDetail.LastName;
+                            existingUserDetail.ModifiedDate = DateTime.Now.ToUniversalTime();
+
+                            // Save changes to the database
+                            _cIDbContext.SaveChanges();
+
+
+                            result = "User Detail Updated Successfully!";
+                        }
+                        else
+                        {
+                            //Insert new user detail
+                            string maxEmployeeIdStr = _cIDbContext.UserDetail.Max(ud => ud.EmployeeId);
+                            int userID = _cIDbContext.User.Max(u => u.Id) + 1;
+                            int userDetailID = _cIDbContext.UserDetail.Max(ud => ud.Id) + 1;
+                            int maxEmployeeId = 0;
+
+                            // Convert the maximum EmployeeId to an integer
+                            if (!string.IsNullOrEmpty(maxEmployeeIdStr))
+                            {
+                                if (int.TryParse(maxEmployeeIdStr, out int parsedEmployeeId))
+                                {
+                                    maxEmployeeId = parsedEmployeeId;
+                                }
+                                else
+                                {
+                                    // Handle conversion error
+                                    throw new Exception("Error converting EmployeeId to integer.");
+                                }
+                            }
+
+                            // Increment the maximum EmployeeId by 1 for the new user
+                            int newEmployeeId = maxEmployeeId + 1;
+
+                           ;
+                            var newUserDetail = new UserDetail
+                            {
+                                Id = userDetailID,
+                                UserId = userID,
+                                FirstName = userDetail.FirstName,
+                                LastName = userDetail.LastName,
+                                PhoneNumber = userDetail.PhoneNumber,
+                                EmailAddress = userDetail.EmailAddress,
+                                UserType = userDetail.UserType,
+                                Name = userDetail.FirstName,
+                                Surname = userDetail.LastName,
+                                EmployeeId = newEmployeeId.ToString(),
+                                Title = "SDE 1",
+                                Manager = "Manager",
+                                Department = "IT",
+                                MyProfile = "",
+                                Avilability = "",
+                                WhyIVolunteer = "",
+                                LinkdInUrl = "",
+                                MySkills = "",
+                                UserImage = "",
+                                Status = true
+                            };
+                            // Add the new user to the database
+                            _cIDbContext.UserDetail.Add(newUserDetail);
+                            _cIDbContext.SaveChanges();
+
+                            result = "User Detail Created Successfully!";
+                        } 
+
+                        //Update First Name and Last Name in User Table
+                        var user = _cIDbContext.User
+                            .FirstOrDefault(u => u.Id == userDetail.UserId && u.IsDeleted == false);
+                        if (user != null)
+                        {
+                            //Update First and Last Name
+                            user.FirstName = userDetail.FirstName;
+                            user.LastName = userDetail.LastName;
+                        }
+
+                        _cIDbContext.SaveChanges();
+
+                        // Commit transaction
+                        transaction.Commit();
+                    }
+                    catch (Exception ex)
+                    {
+                        // Rollback transaction if an exception occurs
+                        transaction.Rollback();
+                        throw ex;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return result;
         }
     }
 }

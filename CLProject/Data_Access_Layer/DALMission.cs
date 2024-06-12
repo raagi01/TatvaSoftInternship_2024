@@ -18,14 +18,14 @@ namespace Data_Access_Layer
         }
         public List<DropDown> GetMissionThemeList()
         {
-            return _cIDbContext.MissionTheme.Where(dt => !dt.IsDeleted)
+            return _cIDbContext.MissionTheme
                 .Select(mt => new DropDown { Value = mt.Id, Text = mt.ThemeName })
                 .ToList();
         }
 
         public List<DropDown> GetMissionSkillList()
         {
-            return _cIDbContext.MissionSkill.Where(dt => !dt.IsDeleted)
+            return _cIDbContext.MissionSkill
                 .Select(ms => new DropDown { Value = ms.Id, Text = ms.SkillName })
                 .ToList();
         }
