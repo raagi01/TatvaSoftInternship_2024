@@ -1,10 +1,14 @@
 ﻿using Data_Access_Layer.Repository;
 using Data_Access_Layer.Repository.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using System.Data;
 using System.Net;
 using System.Net.Mail;
+using System.Reflection;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Linq.Dynamic.Core;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Data_Access_Layer
 {
@@ -19,6 +23,7 @@ namespace Data_Access_Layer
         public List<DropDown> GetMissionThemeList()
         {
             return _cIDbContext.MissionTheme
+                .Where(mt => !mt.IsDeleted)
                 .Select(mt => new DropDown { Value = mt.Id, Text = mt.ThemeName })
                 .ToList();
         }
@@ -26,13 +31,15 @@ namespace Data_Access_Layer
         public List<DropDown> GetMissionSkillList()
         {
             return _cIDbContext.MissionSkill
+                .Where(ms => !ms.IsDeleted)
                 .Select(ms => new DropDown { Value = ms.Id, Text = ms.SkillName })
                 .ToList();
         }
 
         public List<Missions> MissionList()
         {
-            return _cIDbContext.Missions.Where(m => m.IsDeleted == false)
+            return _cIDbContext.Missions
+                .Where(ms => !ms.IsDeleted)
                 .ToList();
         }
 
@@ -108,7 +115,7 @@ namespace Data_Access_Layer
                         missionToUpdate.StartDate = mission.StartDate;
                         missionToUpdate.EndDate = mission.EndDate;
                         missionToUpdate.MissionType = mission.MissionType;
-                        missionToUpdate.TotalSheets = mission.TotalSheets;
+                        missionToUpdate.TotalSeats = mission.TotalSeats;
                         missionToUpdate.RegistrationDeadLine = mission.RegistrationDeadLine;
                         missionToUpdate.MissionThemeId = mission.MissionThemeId;
                         missionToUpdate.MissionSkillId = mission.MissionSkillId;
@@ -116,7 +123,7 @@ namespace Data_Access_Layer
                         missionToUpdate.MissionDocuments = mission.MissionDocuments;
                         missionToUpdate.MissionAvilability = mission.MissionAvilability;
                         missionToUpdate.MissionVideoUrl = mission.MissionVideoUrl;
-                        missionToUpdate.ModifiedDate = DateTime.Now;
+                        missionToUpdate.ModifiedDate = DateTime.Now.ToUniversalTime();
 
                         _cIDbContext.SaveChanges();
 
@@ -162,7 +169,6 @@ namespace Data_Access_Layer
                 throw;
             }
         }
-
         public List<Missions> ClientSideMissionList(int userid)
         {
             List<Missions> clientSideMissionList = new List<Missions>();
@@ -176,32 +182,32 @@ namespace Data_Access_Layer
                         Id = m.Id,
                         MissionTitle = m.MissionTitle,
                         MissionDescription = m.MissionDescription,
-                        MissionOrganisationDetail=m.MissionOrganisationDetail,
-                        MissionOrganisationName=m.MissionOrganisationName,
-                        CountryId= m.CountryId,
-                        CountryName=m.CountryName,
-                        CityId= m.CityId,
-                        CityName= m.CityName,
-                        StartDate= m.StartDate,
-                        EndDate= m.EndDate,
-                        MissionType= m.MissionType,
-                        TotalSheets= m.TotalSheets,
-                        RegistrationDeadLine= m.RegistrationDeadLine,
-                        MissionThemeId= m.MissionThemeId,
-                        MissionSkillId= m.MissionSkillId,
-                        MissionImages= m.MissionImages,
-                        MissionDocuments= m.MissionDocuments,
-                        MissionAvilability= m.MissionAvilability,
-                        MissionVideoUrl= m.MissionVideoUrl,
-                        MissionThemeName= m.MissionThemeName,
-                        MissionSkillName= string.Join(",",m.MissionSkillName),
+                        MissionOrganisationDetail = m.MissionOrganisationDetail,
+                        MissionOrganisationName = m.MissionOrganisationName,
+                        CountryId = m.CountryId,
+                        CountryName = m.CountryName,
+                        CityId = m.CityId,
+                        CityName = m.CityName,
+                        StartDate = m.StartDate,
+                        EndDate = m.EndDate,
+                        MissionType = m.MissionType,
+                        TotalSeats = m.TotalSeats,
+                        RegistrationDeadLine = m.RegistrationDeadLine,
+                        MissionThemeId = m.MissionThemeId,
+                        MissionSkillId = m.MissionSkillId,
+                        MissionImages = m.MissionImages,
+                        MissionDocuments = m.MissionDocuments,
+                        MissionAvilability = m.MissionAvilability,
+                        MissionVideoUrl = m.MissionVideoUrl,
+                        MissionThemeName = m.MissionThemeName,
+                        MissionSkillName = string.Join(",", m.MissionSkillName),
                         MissionStatus = m.RegistrationDeadLine < DateTime.Now.AddDays(-1) ? "Closed" : "Available",
                         MissionApplyStatus = _cIDbContext.MissionApplication.Any(ma => ma.MissionId == m.Id && ma.UserId == userid) ? "Applied" : "Apply",
                         MissionApproveStatus = _cIDbContext.MissionApplication.Any(ma => ma.MissionId == m.Id && ma.UserId == userid && ma.Status == true) ? "Approved" : "Applied",
                         MissionDateStatus = m.EndDate <= DateTime.Now.AddDays(-1) ? "MissionEnd" : "MissionRunning",
-                        MissionDeadLineStatus= m.RegistrationDeadLine <= DateTime.Now.AddDays(-1) ? "Closed" : "Running",
-                        MissionFavouriteStatus= "0",
-                        Rating= 0,
+                        MissionDeadLineStatus = m.RegistrationDeadLine <= DateTime.Now.AddDays(-1) ? "Closed" : "Running",
+                        MissionFavouriteStatus = "0",
+                        Rating = 0,
                     })
                     .ToList();
             }
@@ -212,7 +218,6 @@ namespace Data_Access_Layer
 
             return clientSideMissionList;
         }
-
         public string ApplyMission(MissionApplication missionApplication)
         {
             string result = "";
@@ -229,8 +234,8 @@ namespace Data_Access_Layer
 
                         if (mission != null)
                         {
-                            // Check if sheets are available
-                            if (mission.TotalSheets >= missionApplication.Sheet)
+                            // Check if seats are available
+                            if (mission.TotalSeats >= missionApplication.Seats)
                             {
                                 // Create a new MissionApplication entity
                                 var newApplication = new MissionApplication
@@ -239,7 +244,7 @@ namespace Data_Access_Layer
                                     UserId = missionApplication.UserId,
                                     AppliedDate = missionApplication.AppliedDate,
                                     Status = missionApplication.Status,
-                                    Sheet = missionApplication.Sheet,
+                                    Seats = missionApplication.Seats,
 
                                     CreatedDate = DateTime.Now.ToUniversalTime(),
                                     ModifiedDate = DateTime.Now.ToUniversalTime(),
@@ -250,9 +255,9 @@ namespace Data_Access_Layer
                                 _cIDbContext.MissionApplication.Add(newApplication);
                                 _cIDbContext.SaveChanges();
 
-                                // Update total sheets in the mission
-                                mission.TotalSheets -= missionApplication.Sheet;
-                                _cIDbContext.SaveChanges();
+                                // Update total seats in the mission
+                                //mission.TotalSeats -= missionApplication.Seats;
+                                //_cIDbContext.SaveChanges();
 
                                 result = "Mission Apply Successfully.";
                             }
@@ -343,9 +348,13 @@ namespace Data_Access_Layer
             try
             {
                 var missionApplication = _cIDbContext.MissionApplication.FirstOrDefault(m => m.Id == id);
+                var mission = _cIDbContext.Missions
+                            .FirstOrDefault(m => m.Id == missionApplication.MissionId && m.IsDeleted == false);
                 if (missionApplication != null)
                 {
                     missionApplication.Status = true;
+                    _cIDbContext.SaveChanges();
+                    mission.TotalSeats -= missionApplication.Seats;
                     _cIDbContext.SaveChanges();
                     return "Mission is approved";
                 }
@@ -359,5 +368,6 @@ namespace Data_Access_Layer
                 throw;
             }
         }
+       
     }
 }

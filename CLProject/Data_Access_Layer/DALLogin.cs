@@ -2,6 +2,8 @@
 using Data_Access_Layer.Repository;
 using Data_Access_Layer.Repository.Entities;
 using System.Data;
+using System.Net.Mail;
+using System.Xml.Linq;
 
 namespace Data_Access_Layer
 {
@@ -265,6 +267,7 @@ namespace Data_Access_Layer
                                        Department = userdetail.Department,
                                        Title = userdetail.Title,
                                        Manager = userdetail.Manager,
+                                       MyProfile = userdetail.MyProfile,
                                        WhyIVolunteer = userdetail.WhyIVolunteer,
                                        CountryId = userdetail.CountryId,
                                        CityId = userdetail.CityId,
@@ -293,84 +296,39 @@ namespace Data_Access_Layer
                 {
                     try
                     {
-                        // Get the userdetails
+                        // Get the user details
                         var existingUserDetail = _cIDbContext.UserDetail
                             .FirstOrDefault(u => u.UserId == userDetail.UserId && u.IsDeleted == false);
 
                         if (existingUserDetail != null)
-                        {
-                            // Update user detail
-                            
-                            existingUserDetail.FirstName = userDetail.FirstName;
-                            existingUserDetail.LastName = userDetail.LastName;
-                            existingUserDetail.PhoneNumber =userDetail.PhoneNumber;
-                            existingUserDetail.EmailAddress = userDetail.EmailAddress;
-                            existingUserDetail.UserType = userDetail.UserType;
-                            existingUserDetail.Name = userDetail.FirstName;
-                            existingUserDetail.Surname = userDetail.LastName;
+                        {                         
+                            existingUserDetail.Name = userDetail.Name;
+                            existingUserDetail.Surname = userDetail.Surname;
                             existingUserDetail.ModifiedDate = DateTime.Now.ToUniversalTime();
+                            existingUserDetail.EmployeeId = userDetail.EmployeeId;
+                            existingUserDetail.Title = userDetail.Title;
+                            existingUserDetail.Manager = userDetail.Manager;
+                            existingUserDetail.Department = userDetail.Department;
+                            existingUserDetail.MyProfile = userDetail.MyProfile;
+                            existingUserDetail.Avilability = userDetail.Avilability;
+                            existingUserDetail.WhyIVolunteer = userDetail.WhyIVolunteer;
+                            existingUserDetail.LinkdInUrl = userDetail.LinkdInUrl;
+                            existingUserDetail.MySkills = userDetail.MySkills;
+                            existingUserDetail.UserImage = userDetail.UserImage;
+                            existingUserDetail.Status = true;
+                            existingUserDetail.CountryId = userDetail.CountryId;
+                            existingUserDetail.CityId = userDetail.CityId;
 
                             // Save changes to the database
                             _cIDbContext.SaveChanges();
-
-
                             result = "User Detail Updated Successfully!";
                         }
                         else
                         {
                             //Insert new user detail
-                            string maxEmployeeIdStr = _cIDbContext.UserDetail.Max(ud => ud.EmployeeId);
-                            int userID = _cIDbContext.User.Max(u => u.Id) + 1;
-                            int userDetailID = _cIDbContext.UserDetail.Max(ud => ud.Id) + 1;
-                            int maxEmployeeId = 0;
-
-                            // Convert the maximum EmployeeId to an integer
-                            if (!string.IsNullOrEmpty(maxEmployeeIdStr))
-                            {
-                                if (int.TryParse(maxEmployeeIdStr, out int parsedEmployeeId))
-                                {
-                                    maxEmployeeId = parsedEmployeeId;
-                                }
-                                else
-                                {
-                                    // Handle conversion error
-                                    throw new Exception("Error converting EmployeeId to integer.");
-                                }
-                            }
-
-                            // Increment the maximum EmployeeId by 1 for the new user
-                            int newEmployeeId = maxEmployeeId + 1;
-
-                           ;
-                            var newUserDetail = new UserDetail
-                            {
-                                Id = userDetailID,
-                                UserId = userID,
-                                FirstName = userDetail.FirstName,
-                                LastName = userDetail.LastName,
-                                PhoneNumber = userDetail.PhoneNumber,
-                                EmailAddress = userDetail.EmailAddress,
-                                UserType = userDetail.UserType,
-                                Name = userDetail.FirstName,
-                                Surname = userDetail.LastName,
-                                EmployeeId = newEmployeeId.ToString(),
-                                Title = "SDE 1",
-                                Manager = "Manager",
-                                Department = "IT",
-                                MyProfile = "",
-                                Avilability = "",
-                                WhyIVolunteer = "",
-                                LinkdInUrl = "",
-                                MySkills = "",
-                                UserImage = "",
-                                Status = true
-                            };
-                            // Add the new user to the database
-                            _cIDbContext.UserDetail.Add(newUserDetail);
-                            _cIDbContext.SaveChanges();
 
                             result = "User Detail Created Successfully!";
-                        } 
+                        }
 
                         //Update First Name and Last Name in User Table
                         var user = _cIDbContext.User
@@ -378,8 +336,9 @@ namespace Data_Access_Layer
                         if (user != null)
                         {
                             //Update First and Last Name
-                            user.FirstName = userDetail.FirstName;
-                            user.LastName = userDetail.LastName;
+                            user.FirstName = userDetail.Name;
+                            user.LastName = userDetail.Surname;
+                            user.ModifiedDate = DateTime.Now.ToUniversalTime();
                         }
 
                         _cIDbContext.SaveChanges();
@@ -400,6 +359,40 @@ namespace Data_Access_Layer
                 throw;
             }
             return result;
+        }
+        public string ChangePassword(ChangePassword changePassword)
+        {
+            string result = "";
+            try
+            {
+                int id = changePassword.UserId;
+                var user = _cIDbContext.User.FirstOrDefault(u => u.Id == changePassword.UserId && u.IsDeleted == false);
+                if (user != null)
+                {
+                    if (changePassword.OldPassword == user.Password)
+                    {
+                        if (changePassword.NewPassword == changePassword.ConfirmPassword)
+                        {
+                            user.Password = changePassword.ConfirmPassword;
+                            _cIDbContext.SaveChanges();
+                            result = "Password Changed Successfully!";
+                        }
+                        else
+                        {
+                            throw new Exception("New Password and Confirm Password do not match!");
+                        }
+                    }
+                    else
+                    {
+                        throw new Exception("Old Password is not correct!");
+                    }
+                }
+                return result;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
     }
 }

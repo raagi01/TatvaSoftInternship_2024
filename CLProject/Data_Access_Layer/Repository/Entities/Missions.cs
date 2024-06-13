@@ -26,7 +26,7 @@ namespace Data_Access_Layer.Repository.Entities
         [Column(TypeName = "date")]
         public DateTime EndDate { get; set; }
         public string? MissionType { get; set; }
-        public int? TotalSheets { get; set; }
+        public int? TotalSeats { get; set; }
         [Column(TypeName = "date")]
         public DateTime? RegistrationDeadLine { get; set; }
         public string MissionThemeId { get; set; }

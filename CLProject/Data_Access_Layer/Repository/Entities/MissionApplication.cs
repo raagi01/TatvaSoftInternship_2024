@@ -14,16 +14,16 @@ namespace Data_Access_Layer.Repository.Entities
         public int Id { get; set; }
         public int MissionId { get; set; }
         [NotMapped]
-        public string? MissionTitle { get; set;}
+        public string? MissionTitle { get; set; }
         public int UserId { get; set; }
         [NotMapped]
         public string? UserName { get; set; }
         [NotMapped]
         public string? UserImage { get; set; }
         [Column(TypeName = "date")]
-        public DateTime AppliedDate { get; set; }        
+        public DateTime AppliedDate { get; set; }
         public bool Status { get; set; }
-        public int Sheet { get; set; }
+        public int Seats { get; set; }
 
     }
 }

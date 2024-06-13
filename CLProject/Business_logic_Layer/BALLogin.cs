@@ -72,7 +72,6 @@ namespace Business_logic_Layer
 
             return _dalLogin.LoginUser(userOb);
         }
-
         public User LoginUserDetailById(int userId)
         {
             return _dalLogin.LoginUserDetailById(userId);
@@ -86,6 +85,10 @@ namespace Business_logic_Layer
         public string LoginUserProfileUpdate(UserDetail userDetail)
         {
             return _dalLogin.LoginUserProfileUpdate(userDetail);
+        }
+        public string ChangePassword(ChangePassword changePassword)
+        {
+            return _dalLogin.ChangePassword(changePassword);
         }
     }
 }
